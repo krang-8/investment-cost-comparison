@@ -1,0 +1,230 @@
+.stButton > button {
+    width: 100%;
+    border-radius: 4px;
+    background-color: #1e3d59;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    margin: 0.5rem 0;
+}
+
+.stSelectbox {
+    margin-bottom: 1rem;
+}
+
+.results-container {
+    background-color: #f5f5f5;
+    padding: 1.5rem;
+    border-radius: 8px;
+    margin: 1rem 0;
+}
+
+.cost-breakdown {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 0.9rem;
+    color: #333;
+}
+
+h1 {
+    color: #1e3d59;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 600;
+}
+
+.description {
+    color: #666;
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
+
+/* Stock info styles */
+.stock-info {
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin: 1rem 0;
+    border-left: 4px solid #1e3d59;
+}
+
+.stock-info h3 {
+    margin: 0;
+    color: #1e3d59;
+    font-size: 1.2rem;
+}
+
+.current-price {
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #2c5282;
+    margin: 0.5rem 0;
+}
+
+.currency {
+    color: #666;
+    font-size: 0.9rem;
+    margin: 0;
+}
+
+/* Success message styling */
+.stSuccess {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 1rem;
+    line-height: 1.6;
+    background-color: #f0f9ff;
+    border-color: #1e3d59;
+}
+
+.stSuccess > div {
+    padding: 1rem 1.2rem;
+}
+
+.stSuccess p {
+    margin: 0;
+    word-spacing: 0.1rem;
+}
+
+/* Table styling */
+.dataframe {
+    font-family: 'IBM Plex Sans', sans-serif;
+    width: 100%;
+}
+
+.dataframe th {
+    background-color: #f8f9fa;
+    padding: 0.75rem;
+    font-weight: 600;
+}
+
+.dataframe td {
+    padding: 0.75rem;
+}
+
+/* Recommendation card styling */
+.recommendation-card {
+    background: linear-gradient(135deg, #1e3d59 0%, #2c5282 100%);
+    color: white;
+    padding: 2rem;
+    border-radius: 12px;
+    margin: 1.5rem 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.recommendation-card h3 {
+    color: white;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+.recommendation-card p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin: 0;
+}
+
+.platform-highlight {
+    color: #7fd1ff;
+    font-weight: 600;
+}
+
+/* Cost comparison bar styling */
+.cost-bar-container {
+    background-color: #f0f0f0;
+    border-radius: 4px;
+    margin: 0.5rem 0;
+    overflow: hidden;
+}
+
+.cost-bar {
+    height: 8px;
+    background: linear-gradient(90deg, #1e3d59 0%, #2c5282 100%);
+    transition: width 0.3s ease;
+}
+
+/* Platform comparison styling */
+.platform-comparison {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    background-color: white;
+    border-radius: 8px;
+    margin: 0.5rem 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.platform-name {
+    font-weight: 600;
+    color: #1e3d59;
+    flex: 1;
+}
+
+.platform-metrics {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+.metric {
+    text-align: right;
+}
+
+.metric-label {
+    color: #666;
+    font-size: 0.8rem;
+    margin-bottom: 0.2rem;
+}
+
+.metric-value {
+    font-weight: 600;
+    color: #1e3d59;
+}
+
+/* Best option highlight */
+.best-option {
+    border-left: 4px solid #38a169;
+    background-color: #f0fff4;
+}
+
+/* Detailed breakdown styling */
+.breakdown-section {
+    background-color: white;
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin: 1rem 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.breakdown-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.breakdown-platform {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #1e3d59;
+}
+
+.breakdown-total {
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #2c5282;
+}
+
+.fee-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.fee-label {
+    color: #666;
+}
+
+.fee-value {
+    font-weight: 500;
+    color: #1e3d59;
+}
