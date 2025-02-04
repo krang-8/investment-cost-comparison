@@ -6,6 +6,7 @@
 ![App Screenshot](https://github.com/user-attachments/assets/4440415c-2889-42f9-ae3e-2f34b2bcf864)  
 ```
 
+```
 ## Key Features  
 - **Multi-Platform Analysis**: Compare fees across:  
   - Wealthsimple Trade  
