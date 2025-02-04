@@ -1,4 +1,3 @@
-Here's the complete Markdown file content ready for your repository:
 
 ```markdown
 # Investment Cost Comparison Tool  
