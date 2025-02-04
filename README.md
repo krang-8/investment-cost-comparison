@@ -2,8 +2,9 @@
 ```markdown
 # Investment Cost Comparison Tool  
 **Streamlit app for comparing cross-border trading fees across Canadian platforms**  
-
+```
 ![App Screenshot](https://github.com/user-attachments/assets/4440415c-2889-42f9-ae3e-2f34b2bcf864)  
+```
 *Example comparison interface*  
 
 ## Key Features  
@@ -34,11 +35,7 @@
 - 0.12% effective FX cost  
 
 ```
-# Sample calculation logic
-def calculate_norbert_gambit(amount):
-    commission = 4.95 * 2
-    fx_cost = amount * 0.0012
-    return commission + fx_cost
+
 ```
 
 ## Usage  
@@ -63,13 +60,4 @@ streamlit run app.py
 
 ## License  
 MIT License - Free for educational and non-commercial use
-```
 
-Save this content directly as `README.md` in your project root. The Markdown formatting includes:
-- Proper image references using your GitHub attachment URLs
-- Syntax-highlighted code blocks for Python and Bash
-- Organized sections with header hierarchy
-- Clean list formatting for features and methodology
-
----
-Answer from Perplexity: pplx.ai/share
